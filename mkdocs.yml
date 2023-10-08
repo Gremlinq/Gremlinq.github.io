@@ -37,7 +37,7 @@ theme:
   font: false
 
 nav:
-  - Intro: index.md
+  - Introduction: index.md
   - Setup:
     - Setup/index.md
   - Writing queries:
@@ -46,5 +46,6 @@ nav:
     - Customization/index.md
   - Extensions:
     - Extensions/index.md
-
+  - Support:
+    - Support/index.md
 
