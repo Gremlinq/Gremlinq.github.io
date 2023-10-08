@@ -2,6 +2,9 @@
 
 theme:
   name: material
+  logo: assets/Logo.png
+  favicon: assets/Logo.png
+  
   palette:
   # Palette toggle for dark mode
     - scheme: slate
