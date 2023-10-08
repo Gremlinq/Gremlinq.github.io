@@ -16,6 +16,7 @@ theme:
   - navigation.expand
   - navigation.sections
   - navigation.indexes
+  - content.code.copy
   
   palette:
   # Palette toggle for dark mode
@@ -49,3 +50,5 @@ nav:
   - Support:
     - Support/index.md
 
+markdown_extensions:
+  - attr_list
