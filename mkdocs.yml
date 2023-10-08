@@ -1,1 +1,6 @@
-site_name: My Docs
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+theme:
+  name: material
+
+site_name: Gremlinq Docs
