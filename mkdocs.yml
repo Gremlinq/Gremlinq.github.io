@@ -18,5 +18,7 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
+        
+  font: false
 
 site_name: Gremlinq Docs
