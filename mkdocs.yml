@@ -13,6 +13,9 @@ theme:
   
   features:
   - navigation.tabs
+  - navigation.expand
+  - navigation.sections
+  - navigation.indexes
   
   palette:
   # Palette toggle for dark mode
@@ -33,5 +36,15 @@ theme:
         
   font: false
 
+nav:
+  - Intro: index.md
+  - Setup:
+    - Setup/index.md
+  - Writing queries:
+    - Queries/index.md
+  - Customization:
+    - Customization/index.md
+  - Extensions:
+    - Extensions/index.md
 
 
