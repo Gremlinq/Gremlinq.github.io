@@ -1,17 +1,65 @@
-# Welcome to MkDocs
+# Getting started with the `dotnet new` template
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Install the Gremlinq templates package:
 
-## Commands
+```sh
+> dotnet new install ExRam.Gremlinq.Templates
+```
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+There are two `dotnet new` templates included in the package: one for a simple console app and one that shows how to get things running on Asp.NET Core. Currently, there is out-of-the-box support for the generic Gremlin Server, AWS Neptune, Azure CosmosDb and JanusGraph.
 
-## Project layout
+Depending on the desired project type and provider, use `dotnet new` to create a new project:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+=== "Console"
+
+    === "Gremlin Server"
+
+        ``` bat
+        dotnet new gremlinq-console --name GettingStartedWithGremlinq --provider GremlinServer
+        ```
+
+    === "AWS Neptune"
+
+        ``` sh
+        dotnet new gremlinq-console --name GettingStartedWithGremlinq --provider Neptune
+        ```
+
+    === "Azure CosmosDb"
+
+        ``` sh
+        dotnet new gremlinq-console --name GettingStartedWithGremlinq --provider CosmosDb
+        ```
+  
+    === "JanusGraph"
+
+        ``` sh
+        dotnet new gremlinq-console --name GettingStartedWithGremlinq --provider JanusGraph
+        ```
+
+=== "Asp.NET Core"
+
+    === "Gremlin Server"
+
+        ``` sh
+        dotnet new gremlinq-aspnet --name GettingStartedWithGremlinq --provider GremlinServer
+        ```
+
+    === "AWS Neptune"
+
+        ``` sh
+        dotnet new gremlinq-aspnet --name GettingStartedWithGremlinq --provider Neptune
+        ```
+
+    === "Azure CosmosDb"
+
+        ``` sh
+        dotnet new gremlinq-aspnet --name GettingStartedWithGremlinq --provider CosmosDb
+        ```
+  
+    === "JanusGraph"
+
+        ``` sh
+        dotnet new gremlinq-aspnet --name GettingStartedWithGremlinq --provider JanusGraph
+        ```
+
+## Getting started with the `dotnet new` template
