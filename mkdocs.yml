@@ -39,8 +39,9 @@ theme:
 
 nav:
   - Introduction: index.md
-  - Setup:
-    - Setup/index.md
+  - Getting started:
+    -  Setup/index.md
+    -  Setup/index.md
   - Writing queries:
     - Queries/index.md
   - Customization:
@@ -59,3 +60,5 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
