@@ -1,4 +1,4 @@
-# Getting started with the `dotnet new` template
+# From a `dotnet new` template
 
 Install the Gremlinq templates package:
 
@@ -11,12 +11,6 @@ There are two `dotnet new` templates included in the package: one for a simple c
 Depending on the desired project type and provider, use `dotnet new` to create a new project:
 
 === "Console"
-
-    === "Gremlin Server"
-
-        ``` bat
-        dotnet new gremlinq-console --name GettingStartedWithGremlinq --provider GremlinServer
-        ```
 
     === "AWS Neptune"
 
@@ -36,13 +30,13 @@ Depending on the desired project type and provider, use `dotnet new` to create a
         dotnet new gremlinq-console --name GettingStartedWithGremlinq --provider JanusGraph
         ```
 
-=== "Asp.NET Core"
-
     === "Gremlin Server"
 
-        ``` sh
-        dotnet new gremlinq-aspnet --name GettingStartedWithGremlinq --provider GremlinServer
+        ``` bat
+        dotnet new gremlinq-console --name GettingStartedWithGremlinq --provider GremlinServer
         ```
+
+=== "ASP.NET Core"
 
     === "AWS Neptune"
 
@@ -62,4 +56,9 @@ Depending on the desired project type and provider, use `dotnet new` to create a
         dotnet new gremlinq-aspnet --name GettingStartedWithGremlinq --provider JanusGraph
         ```
 
-## Getting started with the `dotnet new` template
+    === "Gremlin Server"
+
+        ``` sh
+        dotnet new gremlinq-aspnet --name GettingStartedWithGremlinq --provider GremlinServer
+        ```
+
